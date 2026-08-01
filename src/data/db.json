@@ -1,0 +1,208 @@
+{
+  "categories": [
+    { "id": 1, "name": "Мясные" },
+    { "id": 2, "name": "Острые" },
+    { "id": 3, "name": "Вегетарианские" },
+    { "id": 4, "name": "Сырные" },
+    { "id": 5, "name": "Морепродукты" },
+    { "id": 6, "name": "Классические" }
+  ],
+
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 1,
+      "name": "Пепперони",
+      "imageUrl": "/images/pizzas/pepperoni.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 38000 },
+        { "size": 26, "type": 1, "price": 41000 },
+        { "size": 30, "type": 0, "price": 47000 },
+        { "size": 30, "type": 1, "price": 50000 },
+        { "size": 40, "type": 0, "price": 57000 },
+        { "size": 40, "type": 1, "price": 60000 }
+      ],
+
+      "ingredients": ["Пепперони", "Моцарелла", "Томатный соус"]
+    },
+
+    {
+      "id": 2,
+      "categoryId": 1,
+      "name": "Мясная фиеста",
+      "imageUrl": "/images/pizzas/meta-fiesta.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 42000 },
+        { "size": 26, "type": 1, "price": 45000 },
+        { "size": 30, "type": 0, "price": 51000 },
+        { "size": 30, "type": 1, "price": 54000 },
+        { "size": 40, "type": 0, "price": 61000 },
+        { "size": 40, "type": 1, "price": 64000 }
+      ],
+
+      "ingredients": ["Говядина", "Бекон", "Ветчина", "Моцарелла"]
+    },
+    {
+      "id": 3,
+      "categoryId": 2,
+      "name": "Халапеньо файер",
+      "imageUrl": "/images/pizzas/jalapeno-fire.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 36000 },
+        { "size": 26, "type": 1, "price": 39000 },
+        { "size": 30, "type": 0, "price": 45000 },
+        { "size": 30, "type": 1, "price": 48000 },
+        { "size": 40, "type": 0, "price": 55000 },
+        { "size": 40, "type": 1, "price": 58000 }
+      ],
+
+      "ingredients": ["Халапеньо", "Острая чоризо", "Моцарелла", "Чили"]
+    },
+    {
+      "id": 4,
+      "categoryId": 2,
+      "name": "Дьябло",
+      "imageUrl": "/images/pizzas/diablo.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 40000 },
+        { "size": 26, "type": 1, "price": 43000 },
+        { "size": 30, "type": 0, "price": 49000 },
+        { "size": 30, "type": 1, "price": 52000 },
+        { "size": 40, "type": 0, "price": 59000 },
+        { "size": 40, "type": 1, "price": 62000 }
+      ],
+
+      "ingredients": ["Острая пепперони", "Перец халапеньо", "Табаско", "Сыр"]
+    },
+    {
+      "id": 5,
+      "categoryId": 3,
+      "name": "Вегетарианская",
+      "imageUrl": "/images/pizzas/vegetarian.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 32000 },
+        { "size": 26, "type": 1, "price": 35000 },
+        { "size": 30, "type": 0, "price": 41000 },
+        { "size": 30, "type": 1, "price": 44000 },
+        { "size": 40, "type": 0, "price": 51000 },
+        { "size": 40, "type": 1, "price": 54000 }
+      ],
+
+      "ingredients": ["Болгарский перец", "Грибы", "Оливки", "Помидоры"]
+    },
+    {
+      "id": 6,
+      "categoryId": 3,
+      "name": "Овощная фантазия",
+      "imageUrl": "/images/pizzas/veggie-fantasy.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 34000 },
+        { "size": 26, "type": 1, "price": 37000 },
+        { "size": 30, "type": 0, "price": 43000 },
+        { "size": 30, "type": 1, "price": 46000 },
+        { "size": 40, "type": 0, "price": 53000 },
+        { "size": 40, "type": 1, "price": 56000 }
+      ],
+
+      "ingredients": ["Кабачки", "Баклажаны", "Перец", "Красный лук"]
+    },
+    {
+      "id": 7,
+      "categoryId": 4,
+      "name": "Четыре сыра",
+      "imageUrl": "/images/pizzas/four-cheese.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 40000 },
+        { "size": 26, "type": 1, "price": 43000 },
+        { "size": 30, "type": 0, "price": 49000 },
+        { "size": 30, "type": 1, "price": 52000 },
+        { "size": 40, "type": 0, "price": 59000 },
+        { "size": 40, "type": 1, "price": 62000 }
+      ],
+
+      "ingredients": ["Моцарелла", "Пармезан", "Дор блю", "Чеддер"]
+    },
+    {
+      "id": 8,
+      "categoryId": 4,
+      "name": "Сырная классика",
+      "imageUrl": "/images/pizzas/cheese-classic.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 36000 },
+        { "size": 26, "type": 1, "price": 39000 },
+        { "size": 30, "type": 0, "price": 45000 },
+        { "size": 30, "type": 1, "price": 48000 },
+        { "size": 40, "type": 0, "price": 55000 },
+        { "size": 40, "type": 1, "price": 58000 }
+      ],
+
+      "ingredients": ["Моцарелла", "Сулугуни", "Сливочный соус"]
+    },
+    {
+      "id": 9,
+      "categoryId": 5,
+      "name": "Морской бриз",
+      "imageUrl": "/images/pizzas/sea-breeze.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 48000 },
+        { "size": 26, "type": 1, "price": 51000 },
+        { "size": 30, "type": 0, "price": 57000 },
+        { "size": 30, "type": 1, "price": 60000 },
+        { "size": 40, "type": 0, "price": 67000 },
+        { "size": 40, "type": 1, "price": 70000 }
+      ],
+
+      "ingredients": ["Креветки", "Кальмары", "Мидии", "Моцарелла"]
+    },
+    {
+      "id": 10,
+      "categoryId": 5,
+      "name": "Криветто",
+      "imageUrl": "/images/pizzas/krivetto.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 46000 },
+        { "size": 26, "type": 1, "price": 49000 },
+        { "size": 30, "type": 0, "price": 55000 },
+        { "size": 30, "type": 1, "price": 58000 },
+        { "size": 40, "type": 0, "price": 65000 },
+        { "size": 40, "type": 1, "price": 68000 }
+      ],
+
+      "ingredients": ["Креветки", "Чеснок", "Сливочный соус", "Укроп"]
+    },
+    {
+      "id": 11,
+      "categoryId": 6,
+      "name": "Маргарита",
+      "imageUrl": "/images/pizzas/margherita.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 30000 },
+        { "size": 26, "type": 1, "price": 33000 },
+        { "size": 30, "type": 0, "price": 39000 },
+        { "size": 30, "type": 1, "price": 42000 },
+        { "size": 40, "type": 0, "price": 49000 },
+        { "size": 40, "type": 1, "price": 52000 }
+      ],
+
+      "ingredients": ["Томаты", "Моцарелла", "Базилик"]
+    },
+    {
+      "id": 12,
+      "categoryId": 6,
+      "name": "Гавайская",
+      "imageUrl": "/images/pizzas/hawaiian.png",
+      "variants": [
+        { "size": 26, "type": 0, "price": 34000 },
+        { "size": 26, "type": 1, "price": 37000 },
+        { "size": 30, "type": 0, "price": 43000 },
+        { "size": 30, "type": 1, "price": 46000 },
+        { "size": 40, "type": 0, "price": 53000 },
+        { "size": 40, "type": 1, "price": 56000 }
+      ],
+
+      "ingredients": ["Курица", "Ананасы", "Моцарелла"]
+    }
+  ],
+
+  "orders": []
+}
