@@ -1,4 +1,4 @@
-import { Ingrid_Darling } from "next/font/google";
+import { ReactNode } from "react";
 
 export type DoughType = 0 | 1;
 
@@ -9,6 +9,7 @@ export interface ProductVarinat {
 }
 
 export interface Category {
+  name: ReactNode;
   id: number;
   nama: string;
 }
