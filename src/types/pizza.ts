@@ -21,6 +21,7 @@ export interface Product {
   imageUrl: string;
   variants: ProductVarinat[];
   ingredients?: string[];
+  rating: number;
 }
 
 export interface CartItem {
